@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #8EC5FC, #E0C3FC);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.App {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.question-box {
+  margin: 20px 0;
+}
+
+.question-box h3 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+button {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  margin: 8px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #a29bfe;
+}
+
+.result {
+  padding: 20px;
+  background-color: #f1f2f6;
+  border-radius: 15px;
+}
+
+.result p {
+  font-size: 1.1rem;
+  color: #2d3436;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 1rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+  }
+}
